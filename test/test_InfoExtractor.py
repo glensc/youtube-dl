@@ -20,7 +20,6 @@ import threading
 TEAPOT_RESPONSE_STATUS = 418
 TEAPOT_RESPONSE_BODY = "<h1>418 I'm a teapot</h1>"
 
-
 class InfoExtractorTestRequestHandler(compat_http_server.BaseHTTPRequestHandler):
     def log_message(self, format, *args):
         pass
